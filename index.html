@@ -8,6 +8,7 @@
       content="简约专业的个人简历单页网站，适合前端与技术岗位展示。"
     />
     <title>谢锦标-Blissen-个人简历</title>
+    <link rel="icon" type="image/svg+xml" href="assets/headportrait.jpg" />
     <link rel="stylesheet" href="assets/styles.css" />
     <script src="assets/main.js" defer></script>
   </head>
@@ -17,7 +18,7 @@
     <header class="site-header" id="top">
       <div class="container header-inner">
         <a class="brand" href="#home" aria-label="返回首页">
-          <span class="brand-mark">CV</span>
+          <span class="brand-mark"><img src="assets/headportrait.jpg" alt="个人头像" /></span>
           <span class="brand-text">个人简历</span>
         </a>
 
@@ -95,8 +96,14 @@
 
           <div class="about-layout">
             <article class="panel reveal">
-              <p class="about-text" id="about-text"></p>
-              <dl class="facts-grid" id="about-facts"></dl>
+              <div class="panel-block">
+                <h3 class="panel-title">个人简介</h3>
+                <p class="about-text" id="about-text"></p>
+              </div>
+              <div class="panel-block">
+                <h3 class="panel-title">基本信息</h3>
+                <dl class="facts-grid" id="about-facts"></dl>
+              </div>
             </article>
 
             <div class="highlights-grid" id="about-highlights"></div>
@@ -180,3 +187,4 @@
     </noscript>
   </body>
 </html>
+
