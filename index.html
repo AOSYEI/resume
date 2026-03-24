@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="简约专业的个人简历单页网站，适合前端与技术岗位展示。"
+      content="谢锦标的个人简历网页，求职方向偏前端开发工程师，兼顾 PHP 工程师岗位。"
     />
-    <title>谢锦标-Blissen-个人简历</title>
-    <link rel="icon" type="image/svg+xml" href="assets/headportrait.jpg" />
+    <title>谢锦标｜前端开发工程师 / PHP 工程师</title>
+    <link rel="icon" type="image/jpeg" href="assets/headportrait.jpg" />
     <link rel="stylesheet" href="assets/styles.css" />
     <script src="assets/main.js" defer></script>
   </head>
@@ -18,7 +18,9 @@
     <header class="site-header" id="top">
       <div class="container header-inner">
         <a class="brand" href="#home" aria-label="返回首页">
-          <span class="brand-mark"><img src="assets/headportrait.jpg" alt="个人头像" /></span>
+          <span class="brand-mark">
+            <img src="assets/headportrait.jpg" alt="个人头像" />
+          </span>
           <span class="brand-text">个人简历</span>
         </a>
 
@@ -39,9 +41,11 @@
           <ul class="nav-list">
             <li><a class="nav-link is-active" href="#home">首页</a></li>
             <li><a class="nav-link" href="#about">关于我</a></li>
+            <li><a class="nav-link" href="#education">教育</a></li>
             <li><a class="nav-link" href="#experience">经历</a></li>
             <li><a class="nav-link" href="#projects">项目</a></li>
             <li><a class="nav-link" href="#skills">技能</a></li>
+            <li><a class="nav-link" href="#honors">荣誉</a></li>
             <li><a class="nav-link" href="#contact">联系</a></li>
           </ul>
         </nav>
@@ -73,8 +77,8 @@
               <figure class="photo-frame">
                 <img
                   id="hero-avatar"
-                  src="assets/avatar-placeholder.svg"
-                  alt="个人职业头像"
+                  src="assets/identification.jpg"
+                  alt="谢锦标职业头像"
                 />
               </figure>
               <div class="photo-caption">
@@ -91,7 +95,7 @@
           <div class="section-heading reveal">
             <p class="eyebrow">ABOUT</p>
             <h2>关于我</h2>
-            <p>以清晰表达、稳定交付和用户体验为导向的前端开发者形象展示。</p>
+            <p>将数字媒体背景、内容生产经验与 Web 求职方向整合成更适合技术岗位的表达。</p>
           </div>
 
           <div class="about-layout">
@@ -111,39 +115,77 @@
         </div>
       </section>
 
-      <section class="content-section" id="experience" data-section="experience">
+      <section class="content-section" id="education" data-section="education">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">EDUCATION</p>
+            <h2>教育</h2>
+            <p>以学业表现、课程基础和综合成长经历支撑前端优先、兼顾 PHP 的求职定位。</p>
+          </div>
+
+          <div class="education-grid">
+            <article class="education-card panel reveal" id="education-card"></article>
+
+            <div class="education-side">
+              <article class="panel reveal">
+                <h3 class="panel-title">学业表现</h3>
+                <div class="education-metrics" id="education-metrics"></div>
+              </article>
+
+              <article class="panel reveal">
+                <h3 class="panel-title">主修课程</h3>
+                <div class="chip-list" id="education-courses"></div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section section-muted" id="experience" data-section="experience">
         <div class="container">
           <div class="section-heading reveal">
             <p class="eyebrow">EXPERIENCE</p>
             <h2>经历</h2>
-            <p>用时间线呈现工作经验、职责重点与技术沉淀。</p>
+            <p>从实习、学生干部到兼职实践，提炼对前端与业务执行岗位有帮助的可迁移能力。</p>
           </div>
 
           <div class="timeline" id="experience-list"></div>
         </div>
       </section>
 
-      <section class="content-section section-muted" id="projects" data-section="projects">
+      <section class="content-section" id="projects" data-section="projects">
         <div class="container">
           <div class="section-heading reveal">
             <p class="eyebrow">PROJECTS</p>
             <h2>项目</h2>
-            <p>突出业务价值、技术栈与个人贡献，适合前端岗位筛选查看。</p>
+            <p>基于真实经历提炼项目型表达，突出成果、协作与对技术岗位有价值的实践能力。</p>
           </div>
 
           <div class="cards-grid" id="projects-list"></div>
         </div>
       </section>
 
-      <section class="content-section" id="skills" data-section="skills">
+      <section class="content-section section-muted" id="skills" data-section="skills">
         <div class="container">
           <div class="section-heading reveal">
             <p class="eyebrow">SKILLS</p>
             <h2>技能</h2>
-            <p>以分组标签方式快速展示技术宽度与实践侧重点。</p>
+            <p>围绕 Web 求职方向，展示开发基础、工具使用、AI 实践与综合协作能力。</p>
           </div>
 
           <div class="skills-grid" id="skills-groups"></div>
+        </div>
+      </section>
+
+      <section class="content-section" id="honors" data-section="honors">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">HONORS</p>
+            <h2>荣誉</h2>
+            <p>精选能直接体现学习能力、竞赛表现与综合素质的关键荣誉。</p>
+          </div>
+
+          <div class="honors-grid" id="honors-list"></div>
         </div>
       </section>
 
@@ -152,12 +194,15 @@
           <div class="section-heading reveal">
             <p class="eyebrow">CONTACT</p>
             <h2>联系</h2>
-            <p>保留最核心的联络方式，便于投递、约面与进一步沟通。</p>
+            <p>欢迎联系我了解更多实践经历与求职方向，完整 PDF 简历也已同步到站内可下载。</p>
           </div>
 
           <div class="contact-panel panel reveal">
             <p class="contact-intro" id="contact-intro"></p>
             <div class="contact-list" id="contact-list"></div>
+            <div class="hero-actions contact-actions">
+              <a class="button button-primary" id="contact-resume-action" href="assets/resume.pdf">下载 PDF 简历</a>
+            </div>
             <p class="contact-note" id="contact-note"></p>
           </div>
         </div>
@@ -187,4 +232,3 @@
     </noscript>
   </body>
 </html>
-
