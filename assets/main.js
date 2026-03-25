@@ -13,7 +13,7 @@
     metrics: [
       { value: "GPA 3.71", label: "学业成绩" },
       { value: "Top 5%", label: "专业排名（3/76）" },
-      { value: "省优秀毕业生", label: "12/396" },
+      { value: "国赛二等奖", label: "全国数字媒体大赛" },
     ],
     note: "完整 PDF 简历已同步到站内，可直接下载查看。",
     resume: {
