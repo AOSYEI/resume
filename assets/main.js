@@ -254,7 +254,7 @@
       { label: "手机号", value: "13574515855", href: "tel:13574515855" },
       { label: "邮箱", value: "846295769@qq.com", href: "mailto:846295769@qq.com" },
       { label: "现居", value: "广东深圳", href: "" },
-      { label: "求职方向", value: "前端开发工程师 / PHP 工程师", href: "" },
+      { label: "求职方向", value: "PHP 工程师 / 前端开发工程师", href: "" },
     ],
     note: "站内已附完整 PDF 简历，如需进一步了解实习、竞赛或校园项目细节，欢迎通过电话或邮件联系。",
   },
