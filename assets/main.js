@@ -1,15 +1,15 @@
 ﻿const resumeData = {
   profile: {
     name: "谢锦标",
-    role: "前端开发工程师 / PHP 工程师",
+    role: " PHP 工程师 / 前端开发工程师",
     summary:
-      "数字媒体技术（计算机类）背景，应届本科毕业生，具备内容生产、视觉表达、活动执行与 AI 工具实践经验。求职重心以 Web 前端开发为主，希望在企业官网、内容平台、运营后台等场景中持续打磨页面实现与交互体验，同时保持对 PHP 工程方向的学习与延展。",
+      "数字媒体技术（计算机类）背景，应届本科毕业生，具备内容生产、视觉表达、活动执行与 AI 工具实践经验。求职重心以前端开发为主，希望在企业官网、内容平台、运营后台等场景中持续打磨页面实现与交互体验，同时保持对 PHP 工程方向的学习与延展。",
     avatarSrc: "assets/identification.jpg",
     avatarFallback: "assets/headportrait.jpg",
     avatarAlt: "谢锦标职业头像",
     location: "广东·深圳 / 可到岗面谈",
-    availability: "2025届 · 前端为主，兼顾 PHP 方向",
-    tags: ["前端为主", "PHP 求职方向", "融媒体实践", "AI 开发"],
+    availability: "2025届 · 前端为主，延展 PHP 方向",
+    tags: ["前端方向", "PHP 求职方向", "融媒体实践", "AI 开发"],
     metrics: [
       { value: "GPA 3.71", label: "学业成绩" },
       { value: "Top 5%", label: "专业排名（3/76）" },
@@ -39,7 +39,7 @@
       },
       {
         title: "工具与执行能力",
-        text: "熟悉 Photoshop、Premiere、剪映与 Office，可独立承担设计、剪辑、排版与交付。",
+        text: "熟悉 VS Code、PyCharm、PHPStorm、XAMPP、Photoshop、Premiere、剪映与 Office，可独立承担程序开发、设计、剪辑、排版与交付。",
       },
       {
         title: "AI 工具实践",
@@ -62,7 +62,7 @@
     details: [
       "GPA 3.71，四年专业排名稳定在前 5%（3/76）。",
       "大学期间兼顾学习、学科竞赛、兼职与学生干部工作，综合表现突出。",
-      "毕业获评湖南省普通高校优秀毕业生（2/76）。",
+      "毕业获评湖南省普通高校优秀毕业生（12/396）。",
     ],
     metrics: [
       { value: "GPA 3.71", label: "学业成绩" },
@@ -74,7 +74,7 @@
       "C语言",
       "数据分析",
       "数据结构",
-      "网站开发技术",
+      "网站开发与技术",
       "数字摄影与摄像",
       "数字构成设计",
     ],
@@ -88,11 +88,12 @@
       summary:
         "负责包装印刷类产品的结构设计、工艺开发与生产落地，统筹打样验证与批量导入，支撑客户订单高质量交付。",
       bullets: [
-        "对接电子电器、日化等行业客户需求，完成包装结构设计与材料选型，累计输出 50+ 款包装方案。",
+        "对接电子电器、日化等行业客户需求，完成包装结构设计与材料选型，累计输出 20+ 款包装方案。",
         "主导裱糊礼盒与精品盒类产品的工艺路径制定，优化模切、烫金、覆膜等工序。",
         "负责打样阶段与生产车间对接，跟进样品验证与工艺标准化，推动新产品缩短导入周期。",
         "参与客户订单评审与工艺评审，配合质量部门完成首件确认与制程异常分析，保障批量生产稳定性。",
         "跨专业从零开始快速学习包装印刷相关知识，积累了丰富的实战经验，并培养了较强的学习能力与执行力。",
+        "学习公司ERP开发逻辑，协助ERP系统的测试与优化。",
       ],
       stack: ["包装印刷", "AutoCAD", "Adobe illustrator", "ERP系统", "BOM管理"],
     },
@@ -190,17 +191,17 @@
     {
       category: "Web 与开发基础",
       description: "围绕前端求职方向展示基础能力，同时保留继续向 PHP 工程方向延展的学习空间。",
-      items: ["HTML", "CSS", "JavaScript", "C语言", "数据结构", "数据分析"],
+      items: ["HTML", "CSS", "JavaScript", "PHP", "数据结构"],
     },
     {
       category: "设计与内容工具",
       description: "覆盖内容生产、视觉表达与常用效率软件，适合企业站、运营内容与展示场景。",
-      items: ["Photoshop", "Premiere", "剪映", "Office", "Visual Studio", "PyCharm"],
+      items: ["Photoshop", "Premiere", "剪映", "Office", "AutoCAD"],
     },
     {
       category: "AI 与平台实践",
       description: "来自融媒体实习与审核工作中的真实经验，强调工具部署与平台规则理解。熟练运用 ChatGPT、Midjourney、Gemini 等主流AI工具，擅长通过精准的提示词工程（Prompt Engineering） 提升内容产出效率与设计质量",
-      items: ["ChatGPT", "Midjourney", "Gemini", "ChatTTS", "GPT-SoVITS"],
+      items: ["ChatGPT", "Midjourney", "Gemini", "ChatTTS"],
     },
     {
       category: "综合能力",
@@ -210,34 +211,40 @@
   ],
   honors: [
     {
-      title: "湖南省普通高校优秀毕业生",
-      date: "2025 届",
+      title: "2025届湖南省普通高校优秀毕业生",
+      date: "2025.06",
       description: "综合学业表现、竞赛成果与实践经历，获得省级优秀毕业生荣誉。",
+      imageSrc: "assets/06.jpg",
     },
     {
       title: "第十一届全国数媒大赛国赛二等奖",
       date: "2023.11",
       description: "在全国数字媒体相关竞赛中获得国家级二等奖。",
+      imageSrc: "assets/02.jpg",
     },
     {
       title: "第十届全国数媒大赛国赛三等奖",
       date: "2022.11",
       description: "连续在全国数媒赛事中取得成绩，体现持续学习与竞赛能力。",
+      imageSrc: "assets/03.jpg",
     },
     {
       title: "校级一等奖学金 / 三好学生",
       date: "2024 年度",
       description: "学业表现与综合素质突出，获得一等奖学金和三好学生称号。",
+      imageSrc: "assets/04.jpg",
     },
     {
       title: "校级二等奖学金 / 三好学生",
       date: "2022、2023 年度",
       description: "连续获得奖学金与三好学生荣誉，说明学业成绩稳定。",
+      imageSrc: "assets/05.jpg",
     },
     {
       title: "优秀干部 / 优秀志愿者 / 优秀共青团干部",
       date: "2023 - 2024",
       description: "含校青志联优秀干部、优秀志愿者、优秀共青团干部以及北斗规模应用国际峰会志愿服务经历。",
+      imageSrc: "assets/01.jpg",
     },
   ],
   contact: {
@@ -466,6 +473,9 @@ function renderHonors() {
         <p class="honor-date">${item.date}</p>
       </div>
       <p>${item.description}</p>
+      <figure class="honor-media">
+        <img src="${item.imageSrc}" alt="${item.imageAlt}" loading="lazy" />
+      </figure>
     `;
     wrapper.appendChild(card);
   });
